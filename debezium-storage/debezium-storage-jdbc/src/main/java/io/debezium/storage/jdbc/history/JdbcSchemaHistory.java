@@ -185,7 +185,6 @@ public final class JdbcSchemaHistory extends AbstractSchemaHistory {
                                         }
                                         // clear
                                         historyDataBuilder.setLength(0);
-                                        // continue
                                     }
                                     historyDataBuilder.append(historyDataSpc);
                                 } else {
